@@ -14,7 +14,8 @@ body {
 }
 
 a {
-  color: #ffafbd;
+  color: black;
+  text-decoration: none;
 }
 
 .App-header {
@@ -26,6 +27,10 @@ a {
 footer {
   text-align: center;
   padding-bottom: 20px;
+}
+
+footer .a {
+  color: #c9ffbf;
 }
 
 .App-footer {
