@@ -12,8 +12,10 @@
   padding: 12px 8px;
   color: #333;
   border: 1px solid #ddd;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
 }
 
 .Dictionary .hint {
   font-size: 12px;
+  margin-top: 10px;
 }
