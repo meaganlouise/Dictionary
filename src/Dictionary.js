@@ -20,6 +20,8 @@ export default function Dictionary(props) {
     axios.get(apiUrl).then(handleResponse);
   }
 
+  let pexelsApiKey = "563492ad6f917000010000016faf2d04c02a440282f250b78cfbdf0f";
+
   function handleSubmit(event) {
     event.preventDefault();
     search();
